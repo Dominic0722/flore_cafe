@@ -1,0 +1,20 @@
+:root{
+    --font-bold:700;
+    --font-medium:400;
+    --font-thin:300;
+    --main-color:#94322D;
+    --sub-color:#C7B882;
+    --fontsize-pc:20px;
+    --fontsize-tab:18px;
+    --fontsize-mob:14px;
+    --fontsize-detail:13px;
+    --inactive-color:#CEC9C9;
+    --space-small:1rem;
+    /* --space-small > 같은 맥락인데 구분하는 여백 */
+    --space-medium:2rem;
+    /* 다른맥락 구분 여백 */
+    --space-large:3.5rem;
+    /* 영역 공간의 위아래 여백 */
+    --space-Xlarge:7rem;
+    /* 영역간 여백 */
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>커피이야기</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variable.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/scroll.css">
+    <!-- swiper js -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- js -->
+     <script src="./js/header.js"></script>
+     <!-- <script src="./js/jquery-1.12.3.js"></script> -->
+     <script src="./js/story_coffee.js"></script>
+    <!-- pretendard font -->
+    <linkrel="stylesheet" as="style" crossorigin  href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <!-- garamond font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link  href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"  rel="stylesheet" />
+</head>
+<body>
+    <header class="pc">
+        <div class="commonFrame">
+          <h1 class="logo">
+            <a href="./index.html">
+              <img src="./img/logo_Sub.svg" alt="logo_subcolor" />
+            </a>
+          </h1>
+          <ul class="gnb">
+            <li>
+              <a href="#">플로레 소개</a>
+              <ul>
+                <li><a href="#">플로레 소개</a></li>
+                <li><a href="#">매장</a></li>
+                <li><a href="#">브랜드 브로슈어</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="./story_coffee.html">메뉴이야기</a>
+              <ul>
+                <li><a href="./story_coffee.html">커피이야기</a></li>
+                <li><a href="#">디저트이야기</a></li>
+                <li><a href="#">델리이야기</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">브랜드 지원</a>
+              <ul>
+                <li><a href="#">플로레 페어링 플랜트</a></li>
+                <li><a href="#">플로레 디저트 플랜트</a></li>
+                <li><a href="#">C&D센터</a></li>
+                <li><a href="#">SEP센터</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">가맹점 창업안내</a>
+              <ul>
+                <li><a href="#">가맹점 개설 안내</a></li>
+                <li><a href="#">창업설명회</a></li>
+                <li><a href="#">온라인 창업상담신청</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">가맹점 전용 금융상품</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">새소식 & 공지</a>
+              <ul>
+                <li><a href="#">공지사항</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </header>
+      
+  
+      <div class="header_mo mo">  
+        <h1 class="logo_mo"><a href="./index.html"><img src="./img/logoSub.svg" alt="플로레로고"></a></h1>
+        <span id="btn_gnb"><img src="./img/tab-design.svg" alt="메뉴열기버튼"></span>
+        <div class="hidden_gnb">
+          <div class="hidden_gnb_top">
+            <h1 class="logo_mo"><a href="./index.html"><img src="./img/logoB.svg" alt="florelogo"></a></h1>
+            <span id="btn_close_gnb"><img src="./img/closeB.svg" alt="메뉴닫기버튼"></span>
+          </div>
+          <section class="gnb_mo_wrap">
+            <ul class="gnb_mo">
+              <li>
+                <a href="#">플로레 소개</a>
+                <ul>
+                  <li><a href="#">플로레 소개</a></li>
+                  <li><a href="#">매장</a></li>
+                  <li><a href="#">브랜드 브로슈어</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="./story_coffee.html">메뉴이야기</a>
+                <ul>
+                  <li><a href="./story_coffee.html">커피이야기</a></li>
+                  <li><a href="#">디저트이야기</a></li>
+                  <li><a href="#">델리이야기</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">브랜드 지원</a>
+                <ul>
+                  <li><a href="#">플로레 페어링 플랜트</a></li>
+                  <li><a href="#">플로레 디저트 플랜트</a></li>
+                  <li><a href="#">C&D센터</a></li>
+                  <li><a href="#">SEP센터</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">가맹점 창업안내</a>
+                <ul>
+                  <li><a href="#">가맹점 개설 안내</a></li>
+                  <li><a href="#">창업설명회</a></li>
+                  <li><a href="#">온라인 창업상담신청</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">가맹점 전용 금융상품</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">새소식 & 공지</a>
+                <ul>
+                  <li><a href="#">공지사항</a></li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+          <div class="hidden_gnb_bottom">
+            <a href="#" class="btn_common">창업안내 바로가기</a>
+            <ul class="sns">
+              <li><a href="#" target="_blank"><img src="./img/youtubeB.svg" alt="유튜브"></a></li>
+              <li><a href="#" target="_blank"><img src="./img/metaB.svg" alt="메타"></a></li>
+              <li><a href="#" target="_blank"><img src="./img/instaB.svg" alt="인스타"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <main>
+        <h3 class=" commonFrame ml">
+            커피이야기
+        </h3>
+        <div class="commonFrame desc3">
+            <div class="txt">
+            <h2><b><strong>FLORÉ</strong> STORY</b></h2>
+            <p><b><strong>FLORÉ</strong></b>의 커피는 한 잔 한 잔이 정성과 시간으로 빚어진 예술입니다. 엄선된 원두와 세심한 로스팅을 거쳐 탄생한 풍미는 깊고도 섬세하며, 그윽한 아로마는 고객의 마음을 따뜻하게 감싸 안습니다.</p>
+            <p><b><strong>FLORÉ</strong></b>는 커피가 단순한 음료를 넘어, 일상 속 특별한 순간이 되길 바랍니다.이곳에서 커피는 전통과 현대적 감각이 만나 탄생한 작은 여정으로, 각각의 향과 맛은 고객의 이야기를 담아내는 소중한 기억이 됩니다. <b><strong>FLORÉ</strong></b>에서 즐기는 커피 한 잔이, 당신의 하루에 특별한 위로가 되기를 꿈꿉니다.</p>
+        </div>
+            <figure>
+                <img src="./img/story_coffee1.jpg" alt="flore coffee story">
+            </figure>
+        </div>
+        
+        <h3 class="commonFrame mla">시그니처 커피 & 음료</h3>
+        <div class="commonFrame station5 swiper">
+            <ul class="train swiper-wrapper">
+                <li class="swiper-slide">
+                    <figure>
+                        <img src="./img/sig1.jpg" alt="시에로 아메리카노">
+                    </figure>
+                    <h4>시에로 아메리카노<strong>Cielo Americano</strong></h4>
+                    <p>이탈리아어로 "하늘"이라는 의미의 ‘Cielo’를 담아내어, 맑고 투명한 풍미가 특징입니다. 신선한 시트러스 향을 가미한 아메리카노로, 가벼우면서도 깊은 여운이 남는 FLORÉ의 특별한 블렌드입니다.</p>    
+                </li>
+                <li class="swiper-slide">
+                    <figure>
+                        <img src="./img/sig2.jpg" alt="네로 디 플로레">
+                    </figure>
+                    <h4>네로 디 플로레<strong>Nero di Floré</strong></h4>
+                    <p>FLORÉ의 시그니처 에스프레소 블렌드 ‘Nero’는 진한 로스팅과 다크 초콜릿의 풍미를 담아, 묵직하고 깊은 맛을 자랑합니다. 에스프레소의 본질을 살린 이 메뉴는 커피 본연의 강렬함을 느끼고 싶은 고객에게 완벽한 선택입니다.</p>    
+                </li>
+                <li class="swiper-slide">
+                    <figure>
+                        <img src="./img/sig3.jpg" alt="알바 라떼">
+                    </figure>
+                    <h4>알바 라떼<strong>Alba Latte</strong></h4>
+                    <p>‘Alba’는 이탈리아어로 "새벽"을 의미합니다. 알바 라떼는 첫 아침 햇살처럼 부드럽고 포근한 라떼로, 바닐라 시럽과 밀크폼을 가미해 은은한 단맛과 부드러운 질감을 살렸습니다. 하루를 시작하는 따뜻한 한 잔으로 제격입니다.</p>    
+                </li>
+                <li class="swiper-slide">
+                    <figure>
+                        <img src="./img/sig4.jpg" alt="피오레 모카">
+                    </figure>
+                    <h4>피오레 모카<strong>Fiore Mocha</strong></h4>
+                    <p>"꽃"을 뜻하는 ‘Fiore’에서 영감을 받은 모카로, 다크 초콜릿의 깊은 맛과 진한 에스프레소가 조화롭게 어우러집니다. 우유 거품과 은은한 장미 향을 더해 부드러우면서도 로맨틱한 무드를 연출해, 감각적인 디저트 커피로 사랑받습니다.</p>    
+                </li>
+                
+                
+            </ul>
+            <div class="swiper-pagination"></div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="commonFrame">
+          <section class="foot1">
+            <ul class="fmenu">
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">위치기반서비스 이용약관</a></li>
+              <li><a href="#">이메일 무단수집거부</a></li>
+            </ul>
+            <dl class="info">
+              <dt>대표이사 :</dt>
+              <dd>정동익   |</dd>
+              <dt>개인정보보호책임자 : </dt>
+              <dd>정동익   |</dd>
+              <dt>사업자 등록번호 :</dt>
+              <dd>123-12-12312</dd>
+              <dt>통신판매업종신고종 :</dt>
+              <dd>제 2020-테스트-0101호   |</dd>
+              <dt>대표이메일:</dt>
+              <dd>help@flore.com</dd>
+            </dl>
+            <div class="copy">본 홈페이지는 취업용 포트폴리오 용도로 제작되었습니다.</div>
+          </section>
+          <section class="foot2">
+            <ul class="fsns">
+              <li><a href="#"><img src="./img/instaW.svg" alt="인스타그램"></a></li>
+              <li><a href="#"><img src="./img/metaW.svg" alt="메타"></a></li>
+              <li><a href="#"><img src="./img/youtubeW.svg" alt="유튜브"></a></li>
+            </ul>
+            <h1 class="flogo"><a href="./index.html"><img src="./img/logoW.svg" alt="플로레"></a></h1>
+          </section>
+        </div>
+      </footer>
+</body>
+</html>
