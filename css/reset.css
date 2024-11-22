@@ -31,4 +31,7 @@ input{
 html{
     word-break: keep-all;
 }
+table{
+    border-collapse: collapse;
+}
 /* /////스타일 초기화///// */

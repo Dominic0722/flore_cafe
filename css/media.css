@@ -3,6 +3,16 @@
 
 @media (max-width:1280px){
 /* 태블릿스타일 */
+.commonFrame.bbs_pagination{
+    margin-bottom: var(--space-large);
+}
+.commonFrame.notice_form{
+    
+    margin-bottom: var(--space-small);
+}
+.commonFrame.option_bar{
+    margin: var(--space-medium) 1rem;
+}
 .commonFrame.desc3{
     gap: 1rem;
 }
@@ -178,6 +188,17 @@ html{
 }
 @media (max-width:768px){
 /* 모바일스타일 */
+.list_table tr th:nth-of-type(even){
+    display: none;
+}
+.list_table tr td:nth-of-type(even){
+    display: none;
+}
+.list_table th:last-of-type{
+    width: 26%;
+}
+
+
 .station2{
     display: block!important;
     width: 100%;
@@ -278,10 +299,26 @@ html{
 
 }
 @media (max-width:300px){
+    .list_table th:last-of-type{
+        display: none;
+    }
+    .list_table td:last-of-type{
+        display: none;
+    }
+    .list_table th:nth-of-type(3){
+        width: 80%;
+    }
+    .list_table th:nth-of-type(1){
+        width: 10%;
+    }
     .hidden_gnb_bottom{
         flex-direction: column-reverse;
     }
     .direct{
+        gap: 1rem;
+    }
+    .commonFrame.option_bar{
+        flex-direction: column;
         gap: 1rem;
     }
     

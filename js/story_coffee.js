@@ -5,6 +5,7 @@ window.addEventListener("load",function(){
     const station5 = new Swiper(".station5",{
         slidesPerView: 1,
         spaceBetween: 14,
+        loop:true,
         breakpoints:{
             768:{
                 slidesPerView: 2.2,
