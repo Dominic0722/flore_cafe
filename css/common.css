@@ -48,6 +48,7 @@ p{
     display: inline-block;
     background-color: #fff;
     cursor: pointer;
+    font-size: .9rem;
     /* 선택한 태그가 a태그 뿐만이 아니라 span태그 같은 다른 태그가 될 수도 있다 가정 */
 }
 .btn_common.main{
@@ -82,17 +83,20 @@ p{
 input[type="checkbox"]{
     display: none;
 }
-label{
+label.checkbox{
     
-    width: 16px;
-    height: 16px;
-    display: inline-block;
+    /* width: 16px;
+    height: 16px; */
+    display:inline-flex;
+    /* flex컨테이너인데 inline태그처럼 포함하는 컨텐츠 만큼의 너비를 갖게되는 형태 */
+    align-items: center;
+    gap:.5rem;
 }
 .custom_checkbox{
     border: 1px solid black;
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 16px;
+    height: 16px;
 }
 input[type="checkbox"]:checked+.custom_checkbox{
     background: url(../img/check.svg) no-repeat 50% 50% / 90% auto;
@@ -106,4 +110,9 @@ input[type="checkbox"]:checked+.custom_checkbox{
     background-color: var(--main-color);
     color: #fff;
     border: 1px solid var(--main-color);
+}
+
+.bd_btm{
+    border-bottom: 1px solid black;
+    padding-bottom: var(--space-small);
 }
